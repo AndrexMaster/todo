@@ -17,14 +17,15 @@
     "baseUrl": "src",
     "paths": {
       "@/*": ["./*"],
+      "@styles/*": ["styles/*"],
       "@Layouts/*": ["Layouts/*"],
       "@Modules/*": ["Modules/*"],
       "@Navigation/*": ["Modules/Navigation/*"],
       "@Types/*": ["Types/*"],
-      "@Libs/*": ["Libs/*"],
+//      "@Libs/*": ["Libs/*"],
       "@Pages/*": ["Pages/*"],
       "@Store/*": ["Store/*"],
-      "@Themes/*": ["Themes/*"]
+//      "@Themes/*": ["Themes/*"]
     }
   },
   "include": [

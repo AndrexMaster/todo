@@ -6,9 +6,11 @@ interface RootLayoutInterface {
 export const RootLayout = ({children}: RootLayoutInterface) => {
   
     return (
-        <>
+        <div className={'flex flex-col bg-gray-100 h-screen'}>
             <Header/>
-            {children}
-        </>
+            <div className={'h-full box-border'}>
+                {children}
+            </div>
+        </div>
     )
 }

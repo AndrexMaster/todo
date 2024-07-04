@@ -4,6 +4,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 import tsconfigPaths from "vite-tsconfig-paths";
 import react from '@vitejs/plugin-react'
 
+
 const server = () => {
     // const env = process.env.VITE_APP_ENV ?? "local";
     const port = 3000;
